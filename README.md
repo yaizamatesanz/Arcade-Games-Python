@@ -1,68 +1,70 @@
-                    🎮 **JUEGOS ARCADE EN PYTHON** 🎮
+# 🎮 Arcade Games in Python 🎮  
+**Collaborative Project** | Module 1 | Data Analytics Bootcamp  
 
-**DESARROLLADORAS**  
+### 👩‍💻 Developers  
+- **María Remedios Diz Iglesias**  
+- **Paula Martínez Cantero**  
+- **Yaiza Matesanz Avilés**  
 
-María Remedios Diz Iglesias  
-Paula Martínez Cantero  
-Yaiza Matesanz Avilés
+---
 
+## Description  
+This repository contains three classic arcade games developed in Python. These interactive games are perfect for practicing programming skills while enjoying a bit of fun:  
 
-Este repositorio contiene tres juegos arcade desarrollados en Python:
+### 1. **Rock-Paper-Scissors** ✊📄✂️  
+A classic hand game where you compete against the computer. The computer randomly selects one of three options: rock, paper, or scissors.  
+#### **How to Play:**  
+1. **Player Choice**: Enter one of the options: "rock," "paper," or "scissors."  
+2. **Computer Choice**: The computer randomly selects an option.  
+3. **Compare Choices**: The program determines the winner based on traditional rules:  
+   - Rock crushes Scissors.  
+   - Scissors cut Paper.  
+   - Paper covers Rock.  
+4. **Replay or Exit**: After each round, you can choose to play again or quit.  
 
-1. **Piedra, papel, tijera**
-Un clásico juego de manos en el que eliges entre piedra, papel o tijera para vencer a tu oponente.
+---
 
-2. **Ahorcado**
-Un juego de adivinanzas en el que tienes que descubrir la palabra secreta antes de que se complete la figura del ahorcado.
+### 2. **Hangman** 🎮  
+Guess the secret word one letter at a time before the hangman drawing is complete.  
+#### **How to Play:**  
+- **Attempts**: You have a maximum of 6 attempts to guess the word.  
+- **Lose**: If the drawing is completed before guessing the word.  
+- **Win**: Successfully guess the entire word before the drawing is complete.  
 
-3. **Preguntas y respuestas**
-Un juego de preguntas sobre geografía para poner a prueba el conocimiento del jugador.
+---
 
-Cada uno de estos juegos es interactivo y desafía tus habilidades de lógica y deducción, perfecto para pasar un rato entretenido mientras practicas tus habilidades de programación.
+### 3. **Geography Trivia** 🌍  
+A simple quiz game to test your geography knowledge.  
+#### **How to Play:**  
+- **Objective**: Answer geography-related questions until one of the following conditions is met:  
+  - **Win**: Correctly answer 5 questions.  
+  - **Lose**: Fail 3 questions.  
+- **Gameplay**: Each wrong answer deducts an attempt. The game ends when a win or loss condition is reached.  
 
-Cada juego está diseñado para ser simple de ejecutar y fácil de entender, con instrucciones claras para el jugador y una estructura básica que puedes usar como punto de partida para tus propios proyectos de programación.
+---
 
-**Cómo ejecutar el juego elegido** ▶️
-Clona este repositorio o descarga los siguientes archivos del juego deseado: juego_piedra_papel_tijera.ipynb, juego_ahorcado.ipynb, juego_preguntas_respuestas.ipynb.
-Abre una terminal o consola de comandos.
-Navega a la carpeta donde está almacenado el archivo.
-Ejecuta el juego.
-                                      
-                                          JUEGO PIEDRA-PAPEL-TIJERA✊📄✂️
+## 📁 File Structure  
+- `juego_piedra_papel_tijera.ipynb`: Rock-Paper-Scissors game implementation.  
+- `juego_ahorcado.ipynb`: Hangman game implementation.  
+- `juego_preguntas_respuestas.ipynb`: Geography Trivia game implementation.  
 
-Éste es un juego creado en Python. El jugador compite contra la computadora, que selecciona aleatoriamente una opción. El juego sigue las reglas tradicionales, donde:
+---
 
-- Piedra aplasta a Tijera.
-- Tijera corta a Papel.
-- Papel cubre a Piedra.
+## ▶️ How to Run a Game  
+1. Clone this repository or download the desired game file(s).  
+2. Open a terminal or command prompt.  
+3. Navigate to the folder where the game file is stored.  
+4. Run the file in a Python-supported environment.  
 
-**Cómo jugar** 🕹️
-Elección del/la jugador/a: Ingresa una de las opciones: "piedra", "papel" o "tijera".
-Elección de la computadora: La computadora elige aleatoriamente una de las tres opciones.
-Comparación y resultado: El programa comparará las dos elecciones y mostrará quién ha ganado la ronda o si hubo empate.
-Repetir o salir: Al final de cada ronda, el jugador puede decidir si quiere jugar otra vez o salir del juego.
+---
 
-                                           JUEGO AHORCADO 🎮
+## ❤️ Acknowledgments  
+This project is a collaborative effort developed during Module 1 of the Adalab Data Analytics Bootcamp. Each game is designed to be simple yet interactive, showcasing our programming skills while making learning fun!  
 
-El/la jugador/a debe adivinar la palabra letra por letra hasta formar dicha palabra en su totalidad.
+---
 
-**Cómo jugar**
-Solo tendrá un máximo de 6 INTENTOS para poder adivinarla, ya que cada vez que falle, se irá añadiendo una parte del cuerpo al ahorcado.
-- PIERDE si el dibujo del ahorcado se completa antes de que haya adividado la papabra secreta.
-- GANA si adivinas la palabra secreta al completo antes de que se dibuje el ahorcado en su totalidad.
-
-                                  JUEGO PREGUNTAS Y RESPUESTAS GEOGRAFIA 🌍
-  
-Este es un sencillo juego de preguntas y respuestas sobre geografía desarrollado en Python. 
-El objetivo del juego es poner a prueba los conocimientos del/la jugador/a sobre el mundo, desafiándolo a responder correctamente a una serie de preguntas relacionadas con geografía.
-
-**Cómo jugar** 🗺️
-El/la jugador/a deberá contestar preguntas sobre geografía hasta que haya respondido correctamente a 5 preguntas o haya fallado 3 veces. 
-Cada vez que se falla, se resta un intento, y el juego continúa hasta que se cumpla una de las condiciones de victoria o derrota.
-
-
-
-
+## 🌟 Let’s Connect!  
+**Check out my [LinkedIn profile](https://www.linkedin.com/in/yaiza-matesanz-aviles)** for more about me and my work.
 
 
 
